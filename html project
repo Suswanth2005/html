@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head><title>construction website
+    </title>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header {
+    padding: 40px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-image: url(./bg-construction-site.jpg);
+}
+.navbar{
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: brown;
+}
+.frame {
+    padding: 100px 60px;
+    background-image: url(./J700-768x512.jpg); width: 1000px; height: 500px; 
+    background-repeat: no-repeat;
+}
+.bground{
+    background-color: blueviolet;
+}
+.divide{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: rgb(10, 160, 224); width: auto;
+}
+.side {
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 20px;
+   
+}
+.main {
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 20px;
+}
+.footer {
+    padding: 20px;
+    background-color: rgb(230, 112, 112);
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="header">
+    <img src="download.png" width="90" height="80">
+</div>
+<div class="navbar">
+    <a href="#">HOME</a>
+    <a href="#">about us</a>
+    <a href="#">our business</a>
+    <a href="#">project</a>
+    <a href="#">media</a>
+    <a href="#">career</a>
+    <a href="#">contact us</a>
+</div>
+<div class="frame">
+    <img src="C:\Users\lohit\OneDrive\Desktop\html project" width="100px" height="50px">
+</div>
+<div class="bground">
+    <div class="divide">
+        <div class="side">
+            
+            <h2>ABOUT US</h2>
+            <p>SSM Construction specialise in civil engineering & our commitment to the values of safety, integrity and pride in delivering quality service has made us a leader in the construction industry. We work to build positive relationships, with both corporate partners and local communities, which is why we are sought after by companies in the civil construction and mining sectors. Our team has the expertise to successfully complete even the most challenging tasks and projects. We are a team of experts who are always available to help you.
+
+                To provide the best services to our clients and to the community in the local area.
+                
+                Good customer service and satisfaction is our top priority.
+                
+                Best metrials and quality workmanship</p>
+        </div>
+        <div class="main">
+            <video controls>
+                <source src="./WhatsApp Video 2022-12-05 at 5.33.48 PM.mp4" type="video/mp4">
+            </video>
+            
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <h3>WHAT WE DO?</h3>
+    <p>we main do what people like.</p>
+</div>
+
+</body>
+</html
